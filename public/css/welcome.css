@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'Avenir';
+  src:  url('/fonts/Avenir.ttc') format('ttc'),
+}
+
+@font-face {
+  font-family: 'LaBelleAurore';
+  src:  url('/fonts/LaBelleAurore.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Copperplate';
+  src:  url('/fonts/Copperplate.ttc') format('ttc'),
+}
+
+.header {
+	padding: 30px;
+}
+
+.container {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.logo-container {
+	width: 424px;
+	height: 128px;
+	margin-left: 10%;
+}
+
+.nav-container {
+	text-align: center;
+	font-family: 'Open Sans' sans-serif;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.navigation {
+	border: solid 2px;
+	padding: 10px;
+	margin: 15px;
+}
+
+.nav-container a {
+	text-decoration: none;
+	color: black;
+}
+
+.divider {
+    border: solid 6px;
+}
+
+.products-container {
+	background-color: #f5d89c;
+	padding-left: 5%;
+	padding-right: 5%; 
+}
+
+.featured-product-content {
+	background-color: #6aada4;
+}
+
+.featured-product-img {
+	background-size: cover;
+	width: auto;
+	height: 301px;
+}
+
+.featured-product-name {
+	color: white;
+	font-family: 'Copperplate';
+	font-size: 30px;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.featured-product-description {
+	color: white;
+	font-family: 'Avenir';
+	font-size: 14px;
+	padding: 5px 20px 20px 20px;
+	text-align: center;
+}
+
+.sale-container {
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: #eae0d4;
+}
+
+.sale-content {
+	display: inline;
+	font-family: 'Copperplate';
+	font-size: 28px;
+	color: #491700;
+}
+
+#order-now-btn {
+	margin-left: 5%;
+	background-color: #491700;
+	background-image: none;
+	color: white;
+	width: 200px;
+	height: 50px;
+	font-size: 18px;
+	font-family: 'Copperplate';
+}
+
+.information-container {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #ffcb65;
+}
+
+.hour-name, .hour-time {
+	display: inline;
+}
+
+.information-divider {
+	width: 75%;
+	background-color: #491700;
+	height: 2px;
+	border: 0;
+}
+
+.information-title {
+	font-size: 40px;
+	text-align: center;
+	margin-left: 30px;
+	font-family: 'LaBelleAurore';
+}
+
+.information-content {
+	font-size: 16px;
+    line-height: 1.5em;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: 'Avenir';
+}
+
+.information-hours-content, .information-contact-content {
+	font-size: 16px;
+    line-height: 1.5em;
+    font-family: 'Avenir';
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.information-icon-label {
+	position: relative;
+	top: 8px;
+}
+
+.information-time-icon, .information-map-icon {
+	float: left;
+	margin-right: 15px;
+}
+
+.information-business-contact {
+	float: left;
+	margin-top: 25px;
+}
+
+.information-contact-phone {
+	margin-left: 15px;
+}
+
+.information-contact-map-container {
+	margin-top: 20px;
+}
